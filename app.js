@@ -88,8 +88,8 @@ function crearPlaneta() {
     let rand2 = Math.floor(Math.random() * elementosQumicos.length);
     let rand3 = Math.floor(Math.random() * elementosQumicos.length);
     console.log(`Elementos quimicos que predominan: \n- ${elementosQumicos[rand1]} \n- ${elementosQumicos[rand2]} \n- ${elementosQumicos[rand3]}`)
-    let rand4 = Math.floor(Math.random() * colores.length);
-    console.log(`Color de su atmosfera: \n${colores[rand4]}`);
+    let rand44 = Math.floor(Math.random() * colores.length);
+    console.log(`Color de su atmosfera: \n${colores[rand44]}`);
     let rand5 = Math.floor(Math.random() * fenomenos.length);
     console.log(`Fenomeno destacado del planeta: \n${fenomenos[rand5]}`);
 };
